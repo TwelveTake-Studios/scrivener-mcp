@@ -1,0 +1,62 @@
+{
+  "name": "@twelvetake/scrivener-mcp",
+  "version": "1.3.2",
+  "description": "MCP server for Scrivener - Read, write, and organize your writing projects with Claude, ChatGPT, Gemini, and other AI assistants",
+  "main": "dist/index.js",
+  "bin": {
+    "scrivener-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "scrivener",
+    "writing",
+    "novel",
+    "manuscript",
+    "claude",
+    "chatgpt",
+    "gemini",
+    "openai",
+    "anthropic",
+    "ai-assistant",
+    "literature-and-latte",
+    "creative-writing"
+  ],
+  "author": {
+    "name": "Dave Cilluffo",
+    "email": "d.cilluffo@gmail.com"
+  },
+  "license": "MIT",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TwelveTake-Studios/scrivener-mcp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TwelveTake-Studios/scrivener-mcp/issues"
+  },
+  "homepage": "https://github.com/TwelveTake-Studios/scrivener-mcp#readme",
+  "funding": {
+    "type": "individual",
+    "url": "https://buymeacoffee.com/twelvetake"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.24.1",
+    "@types/node": "^24.10.1",
+    "@types/pdfkit": "^0.17.4",
+    "@types/uuid": "^10.0.0",
+    "@types/xml2js": "^0.4.14",
+    "pdfkit": "^0.17.2",
+    "typescript": "^5.9.3",
+    "uuid": "^13.0.0",
+    "xml2js": "^0.6.2"
+  }
+}
